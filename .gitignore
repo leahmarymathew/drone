@@ -1,0 +1,226 @@
+# ===========================
+# Python & Virtual Environments
+# ===========================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.python-version
+
+# pyenv, pipenv, poetry
+.pyenv
+Pipfile.lock
+poetry.lock
+
+# ===========================
+# Jupyter & IPython
+# ===========================
+
+.ipynb_checkpoints
+*.ipynb
+.ipython_history
+profile_default/
+ipython_config.py
+
+# ===========================
+# IDE and Editors
+# ===========================
+
+# VS Code
+.vscode/
+*.code-workspace
+.vscode-server/
+
+# PyCharm
+.idea/
+*.iml
+*.iws
+*.ipr
+.pytest_cache/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+.vim/
+*.swp
+*.swo
+*~
+.netrwhist
+
+# Emacs
+*~
+\#*\#
+.\#*
+
+# Atom
+.atom/
+.apm/
+
+# ===========================
+# Project-specific (ML/Data)
+# ===========================
+
+# Data directories
+data/
+!data/.gitkeep
+data/**/*.jpg
+data/**/*.jpeg
+data/**/*.png
+data/**/*.bmp
+data/**/*.tiff
+data/**/*.JPG
+data/**/*.JPEG
+data/**/*.PNG
+
+# Model checkpoints and weights
+checkpoints/
+!checkpoints/.gitkeep
+*.pth
+*.pt
+*.weights
+*.h5
+*.pkl
+*.pickle
+*.joblib
+
+# EDA and analysis outputs
+eda_output/
+!eda_output/.gitkeep
+*.html
+analysis/
+visualizations/
+
+# Inference and prediction outputs
+predictions/
+predictions.json
+output/
+results/
+!results/.gitkeep
+
+# Training logs
+logs/
+runs/
+mlruns/
+.wandb/
+wandb/
+
+# Temporary files
+*.log
+*.tmp
+temp/
+tmp/
+*.bak
+*.backup
+*.orig
+
+# ===========================
+# Testing & Coverage
+# ===========================
+
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# ===========================
+# OS-specific
+# ===========================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+
+# Windows
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# Linux
+.directory
+
+# ===========================
+# Secrets & Credentials
+# ===========================
+
+secrets.txt
+credentials.json
+.env.local
+.env.*.local
+config.local.ini
+private_key*
+*.key
+*.pem
+
+# ===========================
+# Large files (if tracked)
+# ===========================
+
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+*.iso
+
+# ===========================
+# Misc
+# ===========================
+
+.cache/
+.pytest_cache/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+
+# Experiment tracking temp
+experiments/
+exp_*/
+trial_*/
